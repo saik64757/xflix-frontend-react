@@ -1,0 +1,57 @@
+
+.genre-btn {
+    color: hsla(0,0%,100%,.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.content-rating-btn{
+    color: hsla(0,0%,100%,.87);
+    margin: 10px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.Genre-rating-btn{
+    margin-bottom: 16px;
+    color: white;
+}
+
+.tool-bar{
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.MuiButton-contained {
+    border-radius: 50px !important;
+    background-color:  hsla(0,0%,100%,.87) !important;
+    color: black !important;
+  }
+
+  .GeneralpanelBox{
+    display: flex;
+    flex-direction: row;
+    background-color: "#202020";
+    padding:1rem;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @media (max-width: 800px) {
+    .GeneralpanelBox {
+      flex-direction: column;
+    }
+  }
+
+  .togglesort{
+    background-color: transparent !important;
+    border: none;
+  }

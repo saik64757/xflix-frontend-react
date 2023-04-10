@@ -1,0 +1,28 @@
+#navbar{
+    padding: 16px;
+    background-color: rgb(54, 52, 55);
+    display: flex;
+}
+
+.SerchinputBase{
+    width: 500px;
+}
+
+@media (max-width: 437px) {
+    .SerchinputBase {
+        width: 100%;
+    }
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-color: #9e9e9e !important;
+  }
+  .MuiFormHelperText-root {
+    color: #9e9e9e !important;
+  }
+  
+  .MuiButton-contained {
+    border-radius: 50px !important;
+    background-color:  hsla(0,0%,100%,.87) !important;
+    color: black !important;
+  }

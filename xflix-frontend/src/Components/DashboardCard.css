@@ -1,0 +1,5 @@
+.cardImage{
+    overflow-clip-margin: content-box;
+    overflow-x: auto;
+    overflow-y: auto;
+}
